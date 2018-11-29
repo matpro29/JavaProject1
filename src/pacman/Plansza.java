@@ -11,7 +11,7 @@ public class Plansza {
     private final int WYSOKOSC_PLANSZA=22;//wysokosc planszy
     private final int ROZMIAR_GRAFIKA=15;//rozmiar obrazków w px
     private final int LICZBA_POZIOM=2;//liczba poziomów
-    private final int[] PUNKTY_MAX={156,193};//liczba wszystkich punktów
+    private final int[] PUNKTY_MAX={156,194};//liczba wszystkich punktów
     private int kierunekPacman;//kierunek poruszania się pacmana
     private int poziom;//numer planszy
     private int liczbaDuch;//liczba duchów
