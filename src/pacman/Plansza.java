@@ -497,15 +497,8 @@ public class Plansza {
             }
         }
         int[] temp={0,0,0,0};//tablica pomocnicza przechowująca pozycje duchów
-        for(i=0;i<4;i++){//sprawdza, czy duch jest na polu z punktem
-            temp[i]=pozycjaDuch[i];
-            boolean innaPozycja=true;
-            for(int j=0;j<4;j++){
-                if(pozycjaDuch[i]==temp[j] && i!=j){
-                    innaPozycja=false;
-                }
-            }
-            if(innaPozycja){
+        for (i = 0; i < historiaDuch.length; i++) {//sprawdza, czy duch jest na polu z punktem
+            if (historiaDuch[i] == 8) {
                 pkt++;
             }
         }
